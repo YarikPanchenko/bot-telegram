@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 SELECT_FILTER, SEND_IMAGE = range(2)
 
 # Замените на токен вашего бота
-token = '7279357697:AAFTuXo8uyRo2Gqg1aIDJqKQAZ2N5wyS7jY'
+token = 'ваш токен'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     keyboard = [
